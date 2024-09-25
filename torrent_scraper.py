@@ -38,6 +38,7 @@ def get_working_url(driver):
 search_term = input("Enter search term:\n")
 
 options = Options()
+options.add_argument('--headless')
 try:
     driver = webdriver.Firefox(options=options)
 except:
