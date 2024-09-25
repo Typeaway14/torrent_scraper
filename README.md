@@ -2,9 +2,17 @@
 
 This program is slow. Idc about the speed :)
 
-Usage:
+### Dependencies:
+
+You'll need **qbittorrent** to use this. Other torrent clients also will probably work, I haven't tested with them.
+
+Also only works with **Firefox** browser.
+
+Also only works on **Linux** (and probably MacOS)
+
+### Usage:
 ```
-git clone <url>
+git clone git@github.com:Typeaway14/torrent_scraper.git
 cd torrent_scraper
 pip install -r requirements.txt
 python torrent_scraper.py
